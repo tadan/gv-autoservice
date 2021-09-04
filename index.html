@@ -1,4 +1,5 @@
 <head>
+    <title>GV Autoservice Karlshamn</title>
     <!-- Favicons -->
     <link
         rel="apple-touch-icon"
@@ -76,6 +77,7 @@
         content="assets/favicons/ms-icon-144x144.png"
     />
     <meta name="theme-color" content="#18554F" />
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Google Font -->
@@ -108,10 +110,6 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-    <link
-        src="https://startbootstrap.com/templates/agency/font-awesome-4.1.0/css/font-awesome.min.css"
-    />
-
     <!-- Plugin JavaScript -->
     <script src="https://cdn.bootcdn.net/ajax/libs/classie/1.0.1/classie.min.js "></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animated-header/0.0.1/js/cbpAnimatedHeader.min.js"></script>
@@ -119,13 +117,30 @@
     <!-- Contact Form JavaScript -->
     <script src="https://cdn.tutorialjinni.com/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
     <script rel="JavaScript" src="/script.js"></script>
+    <!--  Essential META Tags -->
+
+    <meta property="og:title" content="GV Autoservice" />
+    <meta property="og:description" content="Bilverkstad i Karlshamn" />
+    <!-- <meta
+        property="og:image"
+        content="http://euro-travel-example.com/thumbnail.jpg"
+    />
+    <meta
+        property="og:url"
+        content="http://euro-travel-example.com/index.htm"
+    /> -->
+
+    <!--  Non-Essential, But Recommended -->
+
+    <meta property="og:site_name" content="GV Autoservice - Karlshamn" />
+    <meta name="twitter:image:alt" content="Alt text for image" />
 </head>
 <body id="page-top" class="index">
     <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
-                <img src="assets/gvLogo.svg" />
+                <img src="assets/img/gvLogo.svg" />
                 <div class="intro-lead-in">
                     Kvalitets service och reparation på alla märken.
                 </div>
@@ -135,20 +150,6 @@
                  <a href="#services" class="page-scroll btn btn-xl"
                     >Aku Bukan Sempit</a
                 > -->
-            </div>
-        </div>
-    </header>
-
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Services</h2>
-                    <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </h3>
-                </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4">
@@ -186,6 +187,23 @@
                         elit. Minima maxime quam architecto quo inventore harum
                         ex magni, dicta impedit.
                     </p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3 class="section-heading">
+                        Kontakta oss för bokningar och frågor
+                    </h3>
+                    <h1 class="section-subheading">
+                        045 418 220
+                    </h1>
+                    <p>Vardag mellan 07:00 - 16:30</p>
                 </div>
             </div>
         </div>
@@ -350,11 +368,7 @@
                 >
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li
-                            data-target="#myCarousel"
-                            data-slide-to="0"
-                            class="active"
-                        ></li>
+                        <li data-target="#myCarousel" data-slide-to="0"></li>
                         <li data-target="#myCarousel" data-slide-to="1"></li>
                         <li data-target="#myCarousel" data-slide-to="2"></li>
                     </ol>
@@ -406,30 +420,18 @@
     </section>
 
     <!-- Why Choosing Us Section -->
-    <section id="team" class="bg-light-gray">
+    <section id="chooseUs" class="bg-black">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Därför ska du välja oss.</h2>
-                    <!-- <h3 class="section-subheading text-muted">
-                        Lorem ipsum dolor sit amet consectetur.
-                    </h3> -->
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <h4>Kvalitets service</h4>
-                        <h3 class="section-subheading text-muted">
-                            Vi sätter dig som kund i centrum och leverar alltid
-                            service av högsta kvalitet.
-                        </h3>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="team-member">
-                        <h4>Kvalitets service</h4>
-                        <p class="text-muted">
+                        <h3>Kvalitets service</h3>
+                        <p>
                             Vi sätter dig som kund i centrum och leverar alltid
                             service av högsta kvalitet.
                         </p>
@@ -437,10 +439,19 @@
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <h4>Kvalitets service</h4>
-                        <p class="text-muted">
-                            Vi sätter dig som kund i centrum och leverar alltid
-                            service av högsta kvalitet.
+                        <h3>Lång erfarenhet</h3>
+                        <p>
+                            Vi hjälper dig att ta bästa beslutet för både
+                            säkerheten och plånboken.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="team-member">
+                        <h3>Lång erfarenhet</h3>
+                        <p>
+                            Som partner till AD bildelar leverar vi alltid delar
+                            av högsta klass.
                         </p>
                     </div>
                 </div>
@@ -461,25 +472,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright © Your Website 2014</span>
+                    <h3 class="title">Kontakta oss</h3>
+                    <a href="tel:+46045418220"
+                        ><img
+                            src="/assets/icons/phone.svg"
+                            alt="Phone Icon"
+                        /><span>045 418 220</span></a
+                    ><br />
+                    <a href="https://goo.gl/maps/dpt7rVHemeZo2iJg8"
+                        ><img
+                            src="./assets/icons/pin.svg"
+                            alt="Pin Icon"
+                        /><span>Gröna vägen 5, 374 32 Karlshamn</span></a
+                    >
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li>
-                            <a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
+                    <h3 class="title">Öpttetider</h3>
+                    <span>Vardag mellan 07:00 - 16:30</span><br />
+                    <span>Lunch stäng mellan 12:00 - 13:00</span>
                 </div>
                 <div class="col-md-4">
+                    <h3 class="title">Betala säkert</h3>
                     <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Use</a></li>
+                        <li><img src="./assets/icons/image 1.svg" /></li>
+                        <li>
+                            <img src="./assets/icons/mastercard-white.svg" />
+                        </li>
+                        <li><img src="./assets/icons/visa-white.svg" /></li>
                     </ul>
                 </div>
             </div>
