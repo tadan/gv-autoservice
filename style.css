@@ -38,15 +38,13 @@ a.active {
     outline: 0;
 }
 
-a {
-    color: #1ee2e7;
-}
-
+a,
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #17d0d5;
+    color: #fff;
+    text-decoration: none;
 }
 
 h1,
@@ -74,13 +72,21 @@ h6 {
 .bg-black {
     background-color: #000;
 }
-
-.btn-primary {
-    border-color: #1ee2e7;
-    text-transform: uppercase;
+.gv-location-panel {
+    text-transform: none;
     font-weight: 700;
+}
+.gv-location-button {
+    border-color: none;
+    text-transform: none;
+    text-decoration: none;
+    padding: 0.5em 1.5em;
+    font-weight: 700;
+    background-color: #26635b;
+}
+.gv-location-btn > a {
     color: #fff;
-    background-color: #1ee2e7;
+    text-decoration: none;
 }
 
 .btn-primary:hover,
