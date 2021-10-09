@@ -8,9 +8,20 @@ body {
     overflow-x: hidden;
     font-family: 'Overpass', sans-serif !important;
 }
-
-.table {
+#carousel {
+    background-color: #d4bb70;
+}
+.carousel-heading {
+    font-weight: 700;
+    text-transform: none;
+}
+.carousel-body {
+    font-size: 1.5rem;
+    width: 70%;
+}
+.tables {
     border: 2px solid #d4bb70;
+    height: 25em;
 }
 .text-muted {
     color: #fff;
@@ -26,6 +37,7 @@ p {
 }
 
 p.large {
+    margin-top: 1em;
     font-size: 18px;
     color: #fff;
 }
@@ -72,20 +84,25 @@ h6 {
 .bg-black {
     background-color: #000;
 }
-.gv-location-panel {
+.gv-location-headline {
     text-transform: none;
     font-weight: 700;
 }
 .gv-location-button {
-    border-color: none;
-    text-transform: none;
-    text-decoration: none;
-    padding: 0.5em 1.5em;
-    font-weight: 700;
     background-color: #26635b;
+    border: none;
+    padding: 0.75em 2em;
 }
-.gv-location-btn > a {
+.gv-location-button:hover {
+    background-color: #358b80;
+}
+a > .gv-location-button {
     color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover > .gv-location-button {
+    color: rgb(182, 182, 182);
     text-decoration: none;
 }
 
@@ -287,18 +304,8 @@ header .intro-text {
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
-    margin: 3em;
-    font-size: 22px;
-    line-height: 22px;
-}
-
-header .intro-text .intro-heading {
-    margin-bottom: 25px;
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 50px;
+header .intro-table {
+    margin-bottom: 2.5em;
 }
 
 @media (min-width: 768px) {
@@ -360,19 +367,18 @@ section h3.section-subheading {
     border-bottom: 2px solid #d4bb70;
 }
 
-#portfolio .portfolio-item {
-    right: 0;
-    margin: 0 0 15px;
+#portfolio .gv-location-panel {
+    margin: 0 1em;
 }
 
-#portfolio .portfolio-item .portfolio-link {
+#portfolio .gv-location-panel .portfolio-link {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 400px;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#portfolio .gv-location-panel .portfolio-link .portfolio-hover {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -383,12 +389,12 @@ section h3.section-subheading {
     transition: all ease 0.5s;
 }
 
-#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .gv-location-panel .portfolio-link .portfolio-hover:hover {
     opacity: 1;
 }
 
 #portfolio
-    .portfolio-item
+    .gv-location-panel
     .portfolio-link
     .portfolio-hover
     .portfolio-hover-content {
@@ -403,7 +409,7 @@ section h3.section-subheading {
 }
 
 #portfolio
-    .portfolio-item
+    .gv-location-panel
     .portfolio-link
     .portfolio-hover
     .portfolio-hover-content
@@ -412,13 +418,13 @@ section h3.section-subheading {
 }
 
 #portfolio
-    .portfolio-item
+    .gv-location-panel
     .portfolio-link
     .portfolio-hover
     .portfolio-hover-content
     h3,
 #portfolio
-    .portfolio-item
+    .gv-location-panel
     .portfolio-link
     .portfolio-hover
     .portfolio-hover-content
@@ -426,7 +432,7 @@ section h3.section-subheading {
     margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-caption {
+#portfolio .gv-location-panel .portfolio-caption {
     margin: 0 auto;
     padding: 25px;
     max-width: 400px;
@@ -434,12 +440,12 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-caption h4 {
+#portfolio .gv-location-panel .portfolio-caption h4 {
     margin: 0;
     text-transform: none;
 }
 
-#portfolio .portfolio-item .portfolio-caption p {
+#portfolio .gv-location-panel .portfolio-caption p {
     margin: 0;
     font-size: 16px;
     font-style: italic;
@@ -450,7 +456,7 @@ section h3.section-subheading {
 }
 
 @media (min-width: 767px) {
-    #portfolio .portfolio-item {
+    #portfolio .gv-location-panel {
         margin: 0 0 30px;
     }
 }
