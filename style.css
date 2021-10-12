@@ -361,9 +361,11 @@ footer {
     text-align: left;
     padding-bottom: 3em;
     padding-top: 3em;
-    align-content: center !important;
 }
-
+.footer-container{
+    margin-left: 7%;
+    width: 26%;
+}
 footer h3.title {
     text-transform: none;
     line-height: 40px;
@@ -372,36 +374,15 @@ footer h3.title {
 }
 footer a {
     color: black;
-ß}
+}
 footer span {
     line-height: 2em;
     font-size: 1.2em;
     color: black;
+    letter-spacing: -0.03em;
 
 }
 footer img {
     margin-right: 0.5em;
     opacity: 70%;
-}
-
-::-moz-selection {
-    text-shadow: none;
-    background: #1ee2e7;
-}
-
-::selection {
-    text-shadow: none;
-    background: #1ee2e7;
-}
-
-img::selection {
-    background: 0 0;
-}
-
-img::-moz-selection {
-    background: 0 0;
-}
-
-body {
-    webkit-tap-highlight-color: #1ee2e7;
 }
