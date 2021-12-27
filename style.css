@@ -28,7 +28,7 @@ body {
 
 .tables {
     border: 2px solid #d4bb70;
-    height: 18em;
+    height: 20em;
     background-color: rgba(0, 0, 0, 0.352);
 }
 
@@ -43,6 +43,7 @@ p.large {
     font-size: 1.8em;
     color: #fff;
 }
+
 
 a,
 a:hover,
@@ -64,7 +65,7 @@ a.active {
 h1,
 h3,
 h4,
-h5,
+h5
 h6 {
     font-weight: 700;
 }
@@ -266,6 +267,48 @@ section h3.section-subheading {
     flex-flow: column nowrap;
 }
 
+.h-center {
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#visitUs {
+    color: black;
+    text-align: left;
+}
+
+
+.visitUs--card h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.visitUs--card p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 0.5em;
+    opacity: 100%;
+}
+
+.visitUs--card h5 {
+    line-height: 1em;
+    font-size: 1.2em;
+    opacity: 70%;
+}
+
+
+.logo--headline {
+    font-weight: 700;
+    font-size: 3.5em;
+    padding-bottom: 1em;
+    color: #black;
+
+}
+
+
 #chooseUs {
     color: white;
     text-align: center;
@@ -318,7 +361,7 @@ a:hover {
     header .intro-text .intro-heading {
         text-transform: uppercase;
         font-weight: 700;
-       
+
     }
 
     header .intro-table {
@@ -361,6 +404,7 @@ footer {
     text-align: left;
     padding-bottom: 3em;
     padding-top: 3em;
+    background-color: #white;
 }
 .footer-container{
     margin-left: 7%;
@@ -384,5 +428,63 @@ footer span {
 }
 footer img {
     margin-right: 0.5em;
-    opacity: 70%;
+    opacity: 100%;
+}
+
+
+------------
+
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+
+/*  GRID OF SIX  */
+.span_6_of_6 {
+	width: 100%;
+}
+
+.span_5_of_6 {
+  	width: 83.06%;
+}
+
+.span_4_of_6 {
+  	width: 66.13%;
+}
+
+.span_3_of_6 {
+  	width: 49.2%;
+}
+
+.span_2_of_6 {
+  	width: 32.26%;
+}
+
+.span_1_of_6 {
+  	width: 15.33%;
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
 }
