@@ -109,6 +109,7 @@ section h3.section-subheading {
     font-weight: 700;
     text-transform: none;
     padding-bottom: 1em;
+    margin-top: 0;
 }
 .carousel-body {
     width: 80%;
@@ -218,6 +219,10 @@ section h3.section-subheading {
     text-align: left;
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+
+.visitUs--card {
+    padding-left: 4rem;
 }
 
 .visitUs--card h3 {
@@ -371,6 +376,7 @@ footer img {
 #logo-section img {
     margin: auto;
     display: block;
+    padding-bottom: 1rem;
 }
 .tables {
     border: 2px solid #d4bb70;
@@ -379,7 +385,7 @@ footer img {
 }
 
 /*  GO FULL WIDTH BELOW 768 PIXELS */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 866px) {
     header .intro-text img {
         width: 50%;
     }
