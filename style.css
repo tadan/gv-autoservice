@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
     overflow-x: hidden;
     font-family: 'Overpass', sans-serif !important;
@@ -112,11 +115,14 @@ section h3.section-subheading {
     line-height: 1.5em;
 }
 .gvMainSection--headline {
-    font-size: 4vw !important;
+    font-size: 4vw;
     font-weight: 400;
     padding-bottom: 2rem;
 }
-
+.gvMainSection--anchor {
+    font-size: 2rem;
+    color: #d4bb70;
+}
 .img-centered {
     margin: 0 auto;
 }
@@ -210,6 +216,8 @@ section h3.section-subheading {
 #visitUs {
     color: black;
     text-align: left;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .visitUs--card h3 {
@@ -276,6 +284,7 @@ a:hover {
     text-decoration: none;
     color: #d4bb70 !important;
 }
+
 @media (max-width: 767px) {
     header .intro-text {
         padding-top: 4em;
@@ -359,12 +368,10 @@ footer img {
     margin-right: 0.5em;
     opacity: 100%;
 }
-
 #logo-section img {
     margin: auto;
     display: block;
 }
-
 .tables {
     border: 2px solid #d4bb70;
     height: 20em;
@@ -390,7 +397,7 @@ footer img {
         padding-bottom: 3rem;
     }
     #services h1 {
-        font-size: 4em !important;
+        font-size: 3em;
         color: white;
         font-weight: 700;
     }
@@ -429,8 +436,8 @@ footer img {
     }
 
     .visitUs--card h5 {
-        line-height: 1em;
-        font-size: 1.5em;
+        line-height: 3rem;
+        font-size: 2rem;
         opacity: 100%;
     }
 
