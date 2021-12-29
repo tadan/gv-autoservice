@@ -379,7 +379,7 @@ footer img {
 
     .tables {
         border: 2px solid #d4bb70;
-        height: aut;
+        height: auto;
         background-color: rgba(0, 0, 0, 0.352);
     }
 
