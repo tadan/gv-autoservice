@@ -1,35 +1,15 @@
-/*!
- * Start Bootstrap - Agency Bootstrap Theme (https://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
-
 body {
     overflow-x: hidden;
     font-family: 'Overpass', sans-serif !important;
 }
-#carousel {
-    background-color: #d4bb70;
-}
-.carousel-heading {
-    font-weight: 700;
-    text-transform: none;
-    padding-bottom: 1em;
-}
-.carousel-body {
-    width: 80%;
-    line-height: 1.5em;
-}
-.gvMainSection--headline {
-    font-size: 4rem;
-    font-weight: 400;
-    padding-bottom: 2rem;
-}
 
-.tables {
-    border: 2px solid #d4bb70;
-    height: 18em;
-    background-color: rgba(0, 0, 0, 0.352);
+a > .gv-location-button {
+    color: #fff;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+a:hover > .gv-location-button {
+    text-decoration: none;
 }
 
 p {
@@ -64,127 +44,13 @@ a.active {
 h1,
 h3,
 h4,
-h5,
-h6 {
+h5 h6 {
     font-weight: 700;
 }
 
 h2 {
     font-weight: 700;
     color: black !important;
-}
-
-.img-centered {
-    margin: 0 auto;
-}
-
-.bg-light-gray {
-    background-color: #f7f7f7;
-}
-
-.bg-darkest-gray {
-    background-color: #222;
-}
-
-.bg-black {
-    background-color: #000;
-}
-.gv-location-headline {
-    text-transform: none;
-    font-weight: 700;
-    padding-bottom: 1em;
-}
-
-.gv-location-panel p {
-    color: black;!important;
-}
-
-.gv-location-button {
-    background-color: #26635b;
-    border: none;
-    padding: 0.75em 2em;
-    margin-top: 2em;
-}
-.gv-location-button:hover {
-    background-color: #358b80;
-}
-a > .gv-location-button {
-    color: #fff;
-    font-size: 18px;
-    text-decoration: none;
-}
-a:hover > .gv-location-button {
-    text-decoration: none;
-}
-
-.btn-xl {
-    padding: 20px 40px;
-    border-color: #1ee2e7;
-    border-radius: 3px;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-    background-color: #1ee2e7;
-}
-
-.navbar-default {
-    border-color: transparent;
-    background-color: #222;
-}
-
-.navbar-default .navbar-brand {
-    color: #1ee2e7;
-}
-
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-brand:active,
-.navbar-default .navbar-brand.active {
-    color: #fec503;
-}
-
-.navbar-default .navbar-collapse {
-    border-color: rgba(255, 255, 255, 0.02);
-}
-
-.navbar-default .navbar-toggle {
-    border-color: #1ee2e7;
-    background-color: #1ee2e7;
-}
-
-.navbar-default .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #1ee2e7;
-}
-
-.navbar-default .nav li a {
-    text-transform: uppercase;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #fff;
-}
-
-.navbar-default .nav li a:hover,
-.navbar-default .nav li a:focus {
-    outline: 0;
-    color: #1ee2e7;
-}
-
-.navbar-default .navbar-nav > .active > a {
-    border-radius: 0;
-    color: #fff;
-    background-color: #1ee2e7;
-}
-
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
-    background-color: #17d0d5;
 }
 
 header {
@@ -204,7 +70,7 @@ header .intro-text {
     padding-bottom: 2em;
 }
 header .intro-text img {
-    width: 20%;
+    width: 25vw;
     height: auto;
 }
 header .intro-table {
@@ -231,6 +97,75 @@ section h2.section-heading {
 section h3.section-subheading {
     text-transform: none;
     font-weight: 400;
+}
+
+#carousel {
+    background-color: #d4bb70;
+}
+.carousel-heading {
+    font-weight: 700;
+    text-transform: none;
+    padding-bottom: 1em;
+}
+.carousel-body {
+    width: 80%;
+    line-height: 1.5em;
+}
+.gvMainSection--headline {
+    font-size: 4rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.img-centered {
+    margin: 0 auto;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
+.bg-darkest-gray {
+    background-color: #222;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.gv-location-headline {
+    text-transform: none;
+    font-weight: 700;
+    padding-bottom: 1em;
+}
+
+.gv-location-button {
+    background-color: #26635b;
+    border: none;
+    padding: 0.75em 2em;
+}
+.gv-location-button:hover {
+    background-color: #358b80;
+}
+
+.iframe-rwd {
+    position: relative;
+    padding-bottom: 65.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-rwd iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 #services {
@@ -266,6 +201,48 @@ section h3.section-subheading {
     flex-flow: column nowrap;
 }
 
+.h-center {
+    margin-top: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#visitUs {
+    color: black;
+    text-align: left;
+}
+
+.visitUs--card h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+.visitUs--card h3:nth-of-type(2) {
+    margin-top: 4.5rem;
+}
+
+.visitUs--card p {
+    line-height: 1.5em;
+    font-size: 1.5em;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: 0.5em;
+    opacity: 100%;
+}
+
+.visitUs--card h5 {
+    line-height: 1em;
+    font-size: 1.2em;
+    opacity: 70%;
+}
+
+.logo--headline {
+    font-weight: 700;
+    font-size: 3.5em;
+    padding-bottom: 1em;
+    color: #000;
+}
+
 #chooseUs {
     color: white;
     text-align: center;
@@ -275,13 +252,11 @@ section h3.section-subheading {
     font-weight: 700;
     font-size: 3.5em;
     padding-bottom: 1em;
-    color: #FFF;
-
+    color: #fff;
 }
 
 .chooseUs--card h3 {
     font-size: 1.8em;
-
 }
 
 .chooseUs--card p {
@@ -318,7 +293,6 @@ a:hover {
     header .intro-text .intro-heading {
         text-transform: uppercase;
         font-weight: 700;
-       
     }
 
     header .intro-table {
@@ -336,11 +310,10 @@ a:hover {
     }
 
     #services h1 {
-        font-size: 6em;
+        font-size: 14vw;
         color: white;
         font-weight: 700;
     }
-
 
     .chooseUs--card {
         text-align: left;
@@ -361,8 +334,9 @@ footer {
     text-align: left;
     padding-bottom: 3em;
     padding-top: 3em;
+    background-color: #fff;
 }
-.footer-container{
+.footer-container {
     margin-left: 7%;
     width: 26%;
 }
@@ -380,9 +354,26 @@ footer span {
     font-size: 1.2em;
     color: black;
     letter-spacing: -0.03em;
-
 }
 footer img {
     margin-right: 0.5em;
-    opacity: 70%;
+    opacity: 100%;
+}
+
+#logo-section img {
+    margin: auto;
+    display: block;
+}
+
+.tables {
+    border: 2px solid #d4bb70;
+    height: 20em;
+    background-color: rgba(0, 0, 0, 0.352);
+}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+    header .intro-text img {
+        width: 70%;
+    }
 }
