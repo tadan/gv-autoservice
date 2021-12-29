@@ -112,7 +112,7 @@ section h3.section-subheading {
     line-height: 1.5em;
 }
 .gvMainSection--headline {
-    font-size: 4rem;
+    font-size: 4vw !important;
     font-weight: 400;
     padding-bottom: 2rem;
 }
@@ -371,9 +371,190 @@ footer img {
     background-color: rgba(0, 0, 0, 0.352);
 }
 
-/*  GO FULL WIDTH BELOW 480 PIXELS */
-@media only screen and (max-width: 480px) {
+/*  GO FULL WIDTH BELOW 768 PIXELS */
+@media only screen and (max-width: 768px) {
     header .intro-text img {
-        width: 70%;
+        width: 50%;
     }
+
+    .tables {
+        border: 2px solid #d4bb70;
+        height: aut;
+        background-color: rgba(0, 0, 0, 0.352);
+    }
+
+    #services {
+        background-color: #18554f;
+        color: white;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    #services h1 {
+        font-size: 4em !important;
+        color: white;
+        font-weight: 700;
+    }
+    .service-heading {
+        margin: 0.5em 1em;
+        padding: 1em;
+        text-transform: none;
+        font-size: 3rem;
+        border-bottom: 2px solid #d4bb70;
+    }
+
+
+
+    #visitUs {
+        color: black;
+        text-align: left;
+        padding: 4rem;
+    }
+
+    .visitUs--card h3 {
+        font-size: 1.8em;
+        font-weight: 700;
+    }
+
+    .visitUs--card h3:nth-of-type(2) {
+        margin-top: 4.5rem;
+    }
+
+    .visitUs--card p {
+        line-height: 1.5em;
+        font-size: 1.5em;
+        padding-left: 0em;
+        padding-right: 0em;
+        padding-top: 0.5em;
+        opacity: 100%;
+    }
+
+    .visitUs--card h5 {
+        line-height: 1em;
+        font-size: 1.5em;
+        opacity: 100%;
+    }
+
+    .iframe-rwd
+    {
+        display: none;
+      }
+
+
+
+      #carousel {
+          background-color: #d4bb70;
+          padding: 4rem;
+      }
+      .carousel-heading {
+          font-weight: 700;
+          text-transform: none;
+          padding-bottom: 0.5em;
+      }
+      .carousel-body {
+          width: 100%;
+          line-height: 1.5em;
+          padding-bottom:0.5em;
+      }
+
+      .gv-location-panel {
+          padding-left: 0em;
+          margin: 0em;
+          width: 90%;
+      }
+      .logo--headline {
+          font-weight: 700;
+          font-size: 3.5em;
+          padding-bottom: 0em;
+          color: #000;
+      }
+
+      #logo-section {
+          padding-top: 4rem;
+          padding-bottom: 2rem;
+      }
+
+      #logo-section img {
+          margin: auto;
+          display: block;
+          margin-bottom: 1em;
+      }
+
+
+
+      #chooseUs {
+          color: white;
+          text-align: center;
+          padding: 4rem;
+      }
+
+      .chooseUs--headline {
+          font-weight: 700;
+          font-size: 3.5em;
+          padding-bottom: 1em;
+          color: #fff;
+      }
+
+      .chooseUs--card h3 {
+          font-size: 1.8em;
+          padding-left: 3.7rem;
+      }
+
+      .chooseUs--card p {
+          line-height: 1.5em;
+          font-size: 1.5em;
+          padding-left: 2em;
+          padding-right: 2em;
+          padding-top: 0.5em;
+          padding-bottom: 4rem;
+          opacity: 70%;
+      }
+      .chooseUs--card a {
+          color: white;
+          text-decoration: underline;
+      }
+
+
+
+
+
+      footer span {
+          line-height: 1.5em;
+          font-size: 1.2em;
+      }
+  }
+  footer {
+      text-align: left;
+      padding-bottom: 3em;
+      padding-top: 1em;
+      background-color: #fff;
+      padding-left: 2em;
+      padding-right: 2em;
+  }
+  .footer-container {
+      margin-left: 7%;
+      width: 26%;
+  }
+  footer h3.title {
+      text-transform: none;
+      line-height: 40px;
+      font-weight: bold;
+      color: black !important;
+      padding-top: 2rem;
+  }
+  footer a {
+      color: black;
+  }
+  footer span {
+      line-height: 2em;
+      font-size: 1.2em;
+      color: black;
+      letter-spacing: -0.03em;
+
+  }
+  footer img {
+      margin-right: 0.5em;
+      opacity: 100%;
+  }
+
+
 }
