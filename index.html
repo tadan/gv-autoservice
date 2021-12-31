@@ -32,27 +32,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;600;700&display=swap" rel="stylesheet" />
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <!-- jQuery Version 3.5.0 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-    <link src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js" />
-    <!-- jQuery Version 2.13.0 -->
-    <link src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js" />
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdn.bootcdn.net/ajax/libs/classie/1.0.1/classie.min.js "></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animated-header/0.0.1/js/cbpAnimatedHeader.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="https://cdn.tutorialjinni.com/jqBootstrapValidation/1.3.7/jqBootstrapValidation.min.js"></script>
-    <script rel="JavaScript" src="/script.js"></script>
     <!--  Essential META Tags -->
-
     <meta property="og:title" content="GV Autoservice" />
     <meta property="og:description" content="Bilverkstad i Karlshamn" />
-
     <meta property="og:site_name" content="GV Autoservice - Karlshamn" />
     <meta name="twitter:image:alt" content="Alt text for image" />
+    <meta name="description" content="Bilverkstad i Karlshamn" />
+    <meta name="image" content="https://raw.githubusercontent.com/tadan/gv-autoservice/main/assets/img/carousel/working_closeup_2.jpg" />
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="GV Autoservice" />
+    <meta itemprop="description" content="Bilverkstad i Karlshamn" />
+    <meta itemprop="image" content="https://raw.githubusercontent.com/tadan/gv-autoservice/main/assets/img/carousel/working_closeup_2.jpg" />
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="GV Autoservice" />
+    <meta name="og:description" content="Bilverkstad i Karlshamn" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
 </head>
 
 <body id="page-top" class="index">
@@ -109,10 +108,12 @@
                     </h3>
                     <a href="tel:+46045418220">
                         <h1 class="section-subheading">
-                            0454 18 220
+                            0454 - 182 20
                         </h1>
                     </a>
-                    <!-- <p class="large">Vardag mellan 07:00 - 16:30</p> -->
+                    <a class="gvMainSection--anchor" href="#openTimes">
+                        Se öppettider
+                    </a>
                 </div>
             </div>
         </div>
@@ -143,10 +144,13 @@
                                 class="gv-location-button">
                                 Hitta hit
                             </button></a>
+                        <a id="openTimes"></a>
                         <h3>Öppettider</h3>
                         <p>
                             Vardag mellan: 07:00 - 16:30</p>
-                        <span>Stängt: 08:00-08:30 och 12:00-13:00 </span>
+                        <span>
+                            <h5>Frukost 09:00-09:30 Lunch 12:00-12:45 </h5>
+                        </span>
                     </div>
                 </div>
             </div>
@@ -174,18 +178,15 @@
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img src="https://images.unsplash.com/photo-1533468659570-9cc9354310e4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2634&q=80"
-                                alt="Old Dodge" />
+                            <img src="./assets/img/carousel/working_closeup_2.jpg" alt="Arbetande" />
                         </div>
 
                         <div class="item">
-                            <img src="https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2250&q=80"
-                                alt="Lamborghini" />
+                            <img src="./assets/img/carousel/working_2.jpg" alt="Arbetande" />
                         </div>
 
                         <div class="item">
-                            <img src="https://images.unsplash.com/photo-1544896478-d5b709d413c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=900&q=60"
-                                alt="Ford Mustang" />
+                            <img src="./assets/img/carousel/garage_2.jpg" alt="Verkstaden" />
                         </div>
 
                         <!-- Indicators -->
@@ -211,22 +212,22 @@
     </section>
 
     <!-- Suppliers logo section -->
-    <section id="logo-section" class="bg-white">
+    <section id="logo-section" class="bg-light-gray">
 
         <div class="container">
 
             <div class="col-lg-12 text-center">
                 <h1 class="logo--headline">
-                    Våra levenratörer.
+                    Våra levenratörer
                 </h1>
             </div>
             <div class="row">
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
-                    <img src="./assets/img/Logo-section/Bosch.png" alt="Bosch" />
+                    <img src="./assets/img/Logo-section/bosch.png" alt="Bosch" />
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
-                    <img src="./assets/img/Logo-section/Förch.png" alt="Förch" />
+                    <img src="./assets/img/Logo-section/förch.png" alt="Förch" />
                 </div>
 
                 <div class="col-lg-2 col-md-4 col-sm-4 col-xs-12">
@@ -252,7 +253,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h1 class="chooseUs--headline">
-                        Därför ska du välja oss.
+                        Därför ska du välja oss
                     </h1>
                 </div>
             </div>
@@ -298,11 +299,12 @@
                             220</span></a><br />
                     <a href="https://goo.gl/maps/dpt7rVHemeZo2iJg8"><img src="./assets/icons/pin.svg"
                             alt="Pin Icon" /><span>Gröna vägen 5, 374 32 Karlshamn</span></a>
+                    <span>Org.nr. 559315-2340</span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3 col-md-offset-1">
                     <h3 class="title">Öpttetider</h3>
                     <span>Vardag mellan 07:00 - 16:30</span><br />
-                    <span>Stängt: 08:00-08:30 och <br /> 12:00-13:00</span>
+                    <span>Frukost 09:00-09:30 <br /> Lunch 12:00-12:45</span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-3 col-md-offset-1">
                     <h3 class="title">Betala säkert</h3>
