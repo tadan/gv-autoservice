@@ -124,6 +124,10 @@ section h3.section-subheading {
     font-size: 2rem;
     color: #d4bb70;
 }
+
+.villkor-link {
+    color: #d4bb70;
+}
 .img-centered {
     margin: 0 auto;
 }
@@ -184,6 +188,7 @@ section h3.section-subheading {
     color: white;
     font-weight: 700;
 }
+
 .service-heading {
     margin: 0.5em 1em;
     padding: 1em;
@@ -290,6 +295,8 @@ a:hover {
     color: #d4bb70 !important;
 }
 
+
+
 @media (max-width: 767px) {
     header .intro-text {
         padding-top: 4em;
@@ -380,9 +387,19 @@ footer img {
 }
 .tables {
     border: 2px solid #d4bb70;
-    height: 20em;
+    height: auto;
     background-color: rgba(0, 0, 0, 0.352);
 }
+
+.tables p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+li {
+   margin:0 0 10px 0;
+}
+
 
 /*  GO FULL WIDTH BELOW 768 PIXELS */
 @media only screen and (max-width: 866px) {
