@@ -126,7 +126,7 @@ section h3.section-subheading {
 }
 
 .villkor-link {
-    color: #d4bb70;
+    color: #d4bb70 !important;
 }
 .img-centered {
     margin: 0 auto;
@@ -392,8 +392,8 @@ footer img {
 }
 
 .tables p {
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: 2em !important;
+    padding-right: 2em !important;
 }
 
 li {
