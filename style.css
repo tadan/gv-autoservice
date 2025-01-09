@@ -166,7 +166,7 @@ section h3.section-subheading {
 .iframe-rwd {
     position: relative;
     padding-bottom: 65.25%;
-    padding-top: 30px;
+    padding-top: 1.5rem;
     height: 0;
     overflow: hidden;
 }
@@ -177,6 +177,13 @@ section h3.section-subheading {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center; /* Center-aligns all column items in the row */
+    flex-wrap: wrap; /* Ensures columns wrap if they don’t fit in one row */
+    gap: 0.5rem; /* Optional: Adds spacing between columns/logos */
 }
 
 #services {
